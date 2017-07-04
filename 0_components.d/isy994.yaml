@@ -1,0 +1,4 @@
+host: !secret ISY_HOST
+username: !secret ISY_USER
+password: !secret ISY_PASS
+sensor_string: Sensor

@@ -1,0 +1,7 @@
+# Controls physical mode toggle buttons.
+# Turns on the bright button and all others off.
+sequence:
+  - service: homeassistant.turn_on
+    entity_id: switch.bright
+  - service: homeassistant.turn_off
+    entity_id: switch.bright__others

@@ -1,0 +1,31 @@
+# Universal media player for the living room. This is used to reroute mute,
+# power, and volume commands to the entertainment system rather than the
+# Chromecast.
+platform: universal
+name: Living Room Universal
+children:
+  - media_player.living_room
+commands:
+    turn_on:
+        service: switch.turn_on
+        data:
+            entity_id: switch.living_room_tv
+    turn_off:
+        service: switch.turn_off
+        data:
+            entity_id: switch.living_room_tv
+    volume_mute:
+        service: switch.turn_on
+        data:
+            entity_id: switch.living_room_mute
+    volume_up:
+        service: switch.turn_on
+        data:
+            entity_id: switch.lrreceiver_volume_up
+    volume_down:
+        service: switch.turn_on
+        data:
+            entity_id: switch.lrreceiver_volume_down
+attributes:
+    state: switch.living_room_tv
+    is_volume_muted: switch.living_room_mute

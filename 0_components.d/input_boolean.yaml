@@ -1,0 +1,3 @@
+dark_outside:
+    name: 'It is dark outside'
+    initial: on

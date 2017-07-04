@@ -1,0 +1,15 @@
+# Script that runs when it becomes dark outside
+# 1) Toggle input boolean for truth table
+# 2) Turn on front yard lights
+# 3) Turn on backyard landscape lights
+sequence:
+    - service: homeassistant.turn_on
+      entity_id: input_boolean.dark_outside
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_on
+      entity_id: switch.front_yard_on
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_on
+      entity_id: switch.landscape_lights

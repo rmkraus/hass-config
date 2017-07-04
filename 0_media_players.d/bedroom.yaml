@@ -1,0 +1,4 @@
+platform: cast
+ignore_cec:
+    - '*'
+host: 192.168.10.7

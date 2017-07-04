@@ -1,0 +1,9 @@
+platform: smtp
+name: ryans_phone
+server: smtp.gmail.com
+port: 587
+sender: !secret GMAIL_ADDR
+starttls: 1
+username: !secret GMAIL_USER
+password: !secret GMAIL_PASS
+recipient: !secret RYANS_PHONE

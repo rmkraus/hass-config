@@ -1,0 +1,25 @@
+# Script that runs when it becomes bright outside.
+# 1) Toggle the input boolean for the truth table
+# 2) Turn front yard lights off
+# 3) Turn off Emma's night lights
+# 4) Set the host to DIM mode
+# 5) Turn off backyard landscape lights
+sequence:
+    - service: homeassistant.turn_off
+      entity_id: input_boolean.dark_outside
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_off
+      entity_id: switch.front_yard_on
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_off
+      entity_id: light.ebstars
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_on
+      entity_id: switch.dim
+    - delay:
+        seconds: 1
+    - service: homeassistant.turn_off
+      entity_id: switch.landscape_lights

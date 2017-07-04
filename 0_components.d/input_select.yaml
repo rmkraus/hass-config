@@ -1,0 +1,9 @@
+lighting_mode:
+  name: Scene
+  options:
+    - Dim
+    - Bright
+    - Movie
+    - Night
+  initial: Dim
+  icon: mdi:home

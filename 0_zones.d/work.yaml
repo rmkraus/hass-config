@@ -1,0 +1,5 @@
+name: Work
+latitude: !secret WORK_LAT
+longitude: !secret WORK_LON
+radius: 500
+icon: mdi:briefcase

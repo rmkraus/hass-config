@@ -1,0 +1,5 @@
+api_password: !secret HTTP_PASS
+ssl_certificate: !secret SSL_CERT_PATH
+ssl_key: !secret SSL_KEY_PATH
+server_port: 443
+base_url: !secret BASE_URL

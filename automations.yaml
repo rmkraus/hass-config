@@ -1,0 +1,111 @@
+- action:
+  - service: script.dark_outside
+  alias: Outside is dark
+  id: '1499188137529'
+  trigger:
+  - below: '12'
+    entity_id: sensor.light
+    platform: numeric_state
+- action:
+  - data:
+      entity_id: input_select.lighting_mode
+      option: Dim
+    service: input_select.select_option
+  alias: Lighting Mode Set - Dim
+  id: '1499196354853'
+  trigger:
+  - entity_id: switch.dim
+    platform: state
+    to: 'on'
+- action:
+  - service: script.dim_on
+  alias: Dropdown Changed - Dim
+  id: '1499196440270'
+  trigger:
+  - entity_id: input_select.lighting_mode
+    platform: state
+    to: Dim
+- action:
+  - data:
+      entity_id: input_select.lighting_mode
+      option: Bright
+    service: input_select.select_option
+  alias: Lighting Mode Set - Bright
+  id: '1499196552770'
+  trigger:
+  - entity_id: switch.bright
+    platform: state
+    to: 'on'
+- action:
+  - service: script.bright_on
+  alias: Dropdown Changed - Bright
+  id: '1499196929822'
+  trigger:
+  - entity_id: input_select.lighting_mode
+    platform: state
+    to: Bright
+- action:
+  - data:
+      entity_id: input_select.lighting_mode
+      option: Movie
+    service: input_select.select_option
+  alias: Lighting Mode Set - Movie
+  id: '1499196996785'
+  trigger:
+  - entity_id: switch.movie
+    platform: state
+    to: 'on'
+- action:
+  - service: script.movie_on
+  alias: Dropdown Changed - Movie
+  id: '1499197046044'
+  trigger:
+  - entity_id: input_select.lighting_mode
+    platform: state
+    to: Movie
+- action:
+  - data:
+      entity_id: input_select.lighting_mode
+      option: Night
+    service: input_select.select_option
+  alias: Lighting Mode Set - Night
+  id: '1499197111666'
+  trigger:
+  - entity_id: switch.night
+    platform: state
+    to: 'on'
+- action:
+  - service: script.night_on
+  alias: Dropdown Changed - Night
+  id: '1499197142350'
+  trigger:
+  - entity_id: input_select.lighting_mode
+    platform: state
+    to: Night
+- action:
+  - service: script.bright_outside
+  alias: Outside is bright
+  id: '1499197585181'
+  trigger:
+  - above: '15'
+    entity_id: sensor.light
+    platform: numeric_state
+- action:
+  - data:
+      message: An update for Home Assistant is available.
+    service: notify.ryans_phone
+  alias: Update is available
+  id: '1499197748247'
+  trigger:
+  - entity_id: updater.updater
+    platform: state
+- action:
+  - data:
+      message: The foyer motion sensor battery is low.
+    service: notify.ryans_phone
+  alias: Battery Low - Foyer Motion
+  id: '1499198265279'
+  trigger:
+  - entity_id: binary_sensor.foyer_motionbattery_sensor
+    platform: state
+    to: 'on'

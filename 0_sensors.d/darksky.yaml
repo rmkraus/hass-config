@@ -1,0 +1,9 @@
+platform: darksky
+api_key: !secret FORECAST_API_KEY
+monitored_conditions:
+  - summary
+  - precip_intensity
+  - precip_probability
+  - temperature
+  - wind_speed
+  - humidity
