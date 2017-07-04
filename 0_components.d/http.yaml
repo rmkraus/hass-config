@@ -3,3 +3,8 @@ ssl_certificate: !secret SSL_CERT_PATH
 ssl_key: !secret SSL_KEY_PATH
 server_port: 443
 base_url: !secret BASE_URL
+trusted_networks: 
+  - !secret BASE_IP
+  - !secret BASE_NET
+ip_ban_enabled: True
+login_attempts_threshold: 5

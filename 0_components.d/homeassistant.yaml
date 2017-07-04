@@ -167,4 +167,5 @@ customize:
             hidden: True
         input_boolean.dark_outside:
             hidden: True
-
+        light.bedroom:
+            hidden: True

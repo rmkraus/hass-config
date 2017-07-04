@@ -61,7 +61,7 @@
     entities:
         - media_player.office
 
-"Outside":
+"Outside Lights":
     entities:
         - switch.landscape_lights
         - light.byporch
@@ -69,6 +69,13 @@
         - light.byflood_2
         - light.fyporch_light
         - light.fycarriage_lights
+
+"Sprinklers":
+    entities:
+        - switch.front_lawn
+        - switch.back_lawn
+        - switch.side_lawn
+        - switch.front_garden
 
 "Downstairs":
     view: yes
@@ -85,3 +92,9 @@
         - group.bedroom
         - group.emmas_room
         - group.office
+
+"Outside":
+    view: yes
+    entities:
+        - group.sprinklers
+        - group.outside_lights

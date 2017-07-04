@@ -1,0 +1,10 @@
+name: Garage is open
+done_message: Garage is closed
+entity_id: input_boolean.garage_door
+state: 'on'
+repeat: 30
+can_acknowledge: True
+skip_first: True
+notifiers:
+  - ryans_phone
+  - kristens_phone

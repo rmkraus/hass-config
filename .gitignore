@@ -1,6 +1,9 @@
 *.conf
 *.db
+ip_bans.yaml
+known_devices.yaml
 *.log
 __pycache__/
 secrets.yaml
-known_devices.yaml
+*.swp
+.uuid
