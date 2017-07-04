@@ -6,4 +6,6 @@ install:
 script:
   - hass -c . --script check_config
 before_install:
+  - touch /tmp/hass.cer
+  - touch /tmp/hass.key
   - mv travis_secrets.yaml secrets.yaml
