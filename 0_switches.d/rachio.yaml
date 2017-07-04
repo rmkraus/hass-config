@@ -1,2 +1,2 @@
 platform: rachio
-access_token: !secrets RACHIO_KEY
+access_token: !secret RACHIO_KEY
