@@ -1,1 +1,1 @@
-!include_dir_named /config/0_alerts.d
+!include_dir_named ../0_alerts.d

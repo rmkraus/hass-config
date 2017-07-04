@@ -1,1 +1,1 @@
-!include_dir_list /config/0_switches.d
+!include_dir_list ../0_switches.d

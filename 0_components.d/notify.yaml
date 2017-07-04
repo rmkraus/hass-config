@@ -1,1 +1,1 @@
-!include_dir_list /config/0_notifiers.d
+!include_dir_list ../0_notifiers.d

@@ -1,1 +1,1 @@
-!include_dir_named /config/0_components.d
+!include_dir_named 0_components.d
