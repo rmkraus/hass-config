@@ -1,8 +1,0 @@
-# 90-custom_components.yaml
-# This file loads custom components defined in the custom_components folder.
-
-# Send a notification every 30 minutes that the garage is left open
-# garage_notifications:
-
-# Handle the house's automatic lighting modes and schedule
-lighting_schedule:

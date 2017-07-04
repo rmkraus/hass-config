@@ -1,9 +1,0 @@
-# 14-mqtt.yaml
-# This file connects to the MQTT broker.
-
-mqtt:
-    broker: !secret MQTT_BROKER
-    port: !secret MQTT_PORT
-    username: !secret MQTT_USER
-    password: !secret MQTT_PASS
-    protocol: 3.1

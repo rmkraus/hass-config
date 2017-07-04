@@ -1,5 +1,0 @@
-# 15-device_tracker.yaml
-# This file loads device trackers.
-
-device_tracker:
-    platform: owntracks
