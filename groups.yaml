@@ -6,15 +6,6 @@
         - cover.garage_door
         - switch.automation_off
 
-"Weather":
-    entities:
-        - sensor.dark_sky_summary
-        - sensor.dark_sky_temperature
-        - sensor.dark_sky_precip_intensity
-        - sensor.dark_sky_precip_probability
-        - sensor.dark_sky_humidity
-        - sensor.dark_sky_wind_speed
-
 "Living Room":
     entities:
         - media_player.living_room_universal
@@ -60,6 +51,14 @@
     entities:
         - media_player.office
 
+"Weather":
+    entities:
+        - sensor.dark_sky_temperature
+        - sensor.dark_sky_precip_intensity
+        - sensor.dark_sky_precip_probability
+        - sensor.dark_sky_humidity
+        - sensor.dark_sky_wind_speed
+
 "Outside Lights":
     entities:
         - switch.landscape_lights
@@ -95,5 +94,6 @@
 "Outside":
     view: yes
     entities:
+        - group.weather
         - group.sprinklers
         - group.outside_lights

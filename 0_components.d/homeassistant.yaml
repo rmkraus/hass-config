@@ -56,7 +56,7 @@ customize:
         sensor.dark_sky_temperature:
             friendly_name: Outside Temp
         sensor.dark_sky_summary:
-            friendly_name: Summary
+            friendly_name: Weather
         sensor.dark_sky_precip_intensity:
             friendly_name: Precip Intensity
             icon: mdi:weather-rainy
@@ -152,7 +152,7 @@ customize:
         sensor.humidity:
             hidden: true
         sensor.light:
-            hidden: False
+            hidden: true
         sensor.temperature:
             hidden: True
         sensor.total_rain_today:
@@ -171,3 +171,4 @@ customize:
             hidden: True
         media_player.emmas_room:
             hidden: True
+
