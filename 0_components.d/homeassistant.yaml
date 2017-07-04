@@ -46,7 +46,7 @@ customize:
         light.mblights:
             friendly_name: Lights
         switch.ebtv:
-            friendly_name: TV
+            hidden: True
         light.ebstars:
             friendly_name: Stars
         light.livingcolors_1:
@@ -168,4 +168,6 @@ customize:
         input_boolean.dark_outside:
             hidden: True
         light.bedroom:
+            hidden: True
+        media_player.emmas_room:
             hidden: True

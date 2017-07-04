@@ -53,8 +53,7 @@
 
 "Emma's Room":
     entities:
-        - media_player.emmas_room
-        - switch.ebtv
+        - media_player.emmas__room_universal
         - light.ebstars
 
 "Office":

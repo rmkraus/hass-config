@@ -1,0 +1,15 @@
+platform: universal
+name: Emma's  Room Universal
+children:
+  - media_player.emmas_room
+commands:
+    turn_on:
+        service: switch.turn_on
+        data:
+            entity_id: switch.ebtv
+    turn_off:
+        service: switch.turn_off
+        data:
+            entity_id: switch.ebtv
+attributes:
+    state: switch.ebtv
