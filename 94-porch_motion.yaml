@@ -1,0 +1,29 @@
+automation porch_motion:
+    # turn up the porch lights when motion is detected
+  - alias: "Porch Activity Detected"
+    trigger:
+        platform: state
+        entity_id: binary_sensor.porch_motionsensor
+        to: 'on'
+    condition:
+        platform: state
+        entity_id: input_boolean.dark_outside
+        to: 'on'
+    action:
+        service: homeassistant.turn_on
+        entity_id: switch.front_yard_visitor
+
+
+    # turn down the porch lights during inactivity
+  - alias: "Porch Inactive"
+    trigger:
+        platform: state
+        entity_id: binary_sensor.porch_motionsensor
+        to: 'off'
+    condition:
+        platform: state
+        entity_id: input_boolean.dark_outside
+        to: 'on'
+    action:
+        service: homeassistant.turn_on
+        entity_id: switch.front_yard_on

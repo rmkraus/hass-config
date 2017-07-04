@@ -1,0 +1,13 @@
+# 90-automation.yaml
+# Most generic automation is defined in this file.
+
+# automation updates:
+    # Send a notification when an update to Home Assistant is released
+    # - alias: "Update is available"
+    # trigger:
+    # platform: state
+    # entity_id: updater.updater
+    # action:
+    # service: notify.ryans_phone
+    # data:
+    # message: "An update for Home Assistant is available."

@@ -1,0 +1,104 @@
+# 80-mode_selector.yaml
+# This file creates on input_select for selecting the house's lighting mode. It
+# then defines the scripts and automations necessary for ensuring that the
+# physical buttons stay in sync with the dropdown and vice-versa.
+
+# Create an input_select component to allow a lighting mode to be selected
+input_select:
+  lighting_mode:
+    name: Scene
+    options:
+      - Dim
+      - Bright
+      - Movie
+      - Night
+    initial: Dim
+    icon: mdi:home
+
+
+# There are two automations here for each mode. The Lighting Mode Set
+# automations will keep the input_select dropdown menu in sync with the
+# physical buttons when the mode is changed with a button. The Dropdown Changed
+# automations will keep the buttons in sync with the dropdown when the mode is
+# changed from the HASS UI.
+automation lighting_mode:
+  - alias: "Lighting Mode Set - Dim"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: switch.dim
+      to: 'on'
+    action:
+      service: input_select.select_option
+      entity_id: input_select.lighting_mode
+      data:
+        option: "Dim"
+  - alias: "Dropdown Changed - Dim"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: input_select.lighting_mode
+      to: 'Dim'
+    action:
+      service: homeassistant.turn_on
+      entity_id: script.dim_on
+  - alias: "Lighting Mode Set - Bright"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: switch.bright
+      to: 'on'
+    action:
+      service: input_select.select_option
+      entity_id: input_select.lighting_mode
+      data:
+        option: "Bright"
+  - alias: "Dropdown Changed - Bright"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: input_select.lighting_mode
+      to: 'Bright'
+    action:
+      service: homeassistant.turn_on
+      entity_id: script.bright_on
+  - alias: "Lighting Mode Set - Movie"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: switch.movie
+      to: 'on'
+    action:
+      service: input_select.select_option
+      entity_id: input_select.lighting_mode
+      data:
+        option: "Movie"
+  - alias: "Dropdown Changed - Movie"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: input_select.lighting_mode
+      to: 'Movie'
+    action:
+      service: homeassistant.turn_on
+      entity_id: script.movie_on
+  - alias: "Lighting Mode Set - Night"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: switch.night
+      to: 'on'
+    action:
+      service: input_select.select_option
+      entity_id: input_select.lighting_mode
+      data:
+        option: "Night"
+  - alias: "Dropdown Changed - Night"
+    hide_entity: True
+    trigger:
+      platform: state
+      entity_id: input_select.lighting_mode
+      to: 'Night'
+    action:
+      service: homeassistant.turn_on
+      entity_id: script.night_on

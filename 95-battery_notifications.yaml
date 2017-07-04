@@ -1,0 +1,22 @@
+automation batteries:
+  - alias: "Front Porch Motion Battery Low"
+    hide_entity: True
+    trigger:
+        platform: state
+        entity_id: binary_sensor.porch_motionbattery_sensor
+        to: 'on'
+    action:
+        service: notify.ryans_phone
+        data:
+           message: "The porch motion sensor battery is low."
+
+  - alias: "Foyer Motion Battery Low"
+    hide_entity: True
+    trigger:
+        platform: state
+        entity_id: binary_sensor.foyer_motionbattery_sensor
+        to: 'on'
+    action:
+        service: notify.ryans_phone
+        data:
+            message: "The foyer motion sensor battery is low."

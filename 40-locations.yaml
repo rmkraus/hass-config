@@ -1,0 +1,16 @@
+# 40-locations.yaml
+# This file defines physical locations on the map that should be tracked by
+# Home Assistant.
+
+zone:
+  - name: Home
+    latitude: !secret HOME_LAT
+    longitude: !secret HOME_LON
+    radius: 250
+    icon: mdi:home
+
+  - name: Work
+    latitude: !secret WORK_LAT
+    longitude: !secret WORK_LON
+    radius: 500
+    icon: mdi:briefcase

@@ -1,0 +1,25 @@
+# 20-notify.yaml
+# This file defines the notification methods avilable to Home Assistant. Text
+# messages are sent using the smtp platform as most carriers allow emails to
+# the proper address to be converted to text messages.
+
+notify:
+  - platform: smtp
+    name: ryans_phone
+    server: smtp.gmail.com
+    port: 587
+    sender: !secret GMAIL_ADDR
+    starttls: 1
+    username: !secret GMAIL_USER
+    password: !secret GMAIL_PASS
+    recipient: !secret RYANS_PHONE
+
+  - platform: smtp
+    name: kristens_phone
+    server: smtp.gmail.com
+    port: 587
+    sender: !secret GMAIL_ADDR
+    starttls: 1
+    username: !secret GMAIL_USER
+    password: !secret GMAIL_PASS
+    recipient: !secret KRISTENS_PHONE
