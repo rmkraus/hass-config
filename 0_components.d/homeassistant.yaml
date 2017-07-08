@@ -5,10 +5,6 @@ elevation: !secret HOME_ELEVATION
 unit_system: imperial
 time_zone: America/New_York
 customize:
-        switch.away:
-            hidden: true
-        binary_sensor.garage_door_sensor:
-            hidden: true
         switch.lrfan:
             friendly_name: Fan
         light.lraccent_lights:
@@ -45,14 +41,10 @@ customize:
             friendly_name: Seasonal Lights
         light.mblights:
             friendly_name: Lights
-        switch.ebtv:
-            hidden: True
         light.ebstars:
             friendly_name: Stars
         light.livingcolors_1:
             friendly_name: Color Light
-        switch.garage_door_control:
-            hidden: true
         sensor.dark_sky_temperature:
             friendly_name: Outside Temp
         sensor.dark_sky_summary:
@@ -69,106 +61,3 @@ customize:
         sensor.dark_sky_wind_speed:
             friendly_name: Wind Speed
             icon: mdi:weather-windy
-        switch.living_room_tv:
-            hidden: true
-        media_player.living_room:
-            hidden: true
-        switch.living_room_mute:
-            hidden: true
-        device_tracker.pcsupsbf_ryan:
-            hidden: true
-        switch.dim:
-            hidden: true
-        switch.dim_2:
-            hidden: true
-        switch.bright:
-            hidden: true
-        switch.bright_2:
-            hidden: true
-        switch.movie:
-            hidden: true
-        switch.movie_2:
-            hidden: true
-        switch.night:
-            hidden: true
-        script.bright_on:
-            hidden: true
-        script.dim_on:
-            hidden: true
-        script.movie_on:
-            hidden: true
-        script.night_on:
-            hidden: true
-        sensor.average_temperature_tomorrow:
-            hidden: true
-        sensor.dew_point:
-            hidden: true
-        sensor.elevation:
-            hidden: true
-        sensor.evapotranspiration:
-            hidden: true
-        sensor.feels_like:
-            hidden: true
-        sensor.forecast_average_temperature:
-            hidden: true
-        sensor.forecast_high_temperature:
-            hidden: true
-        sensor.forecast_humidity:
-            hidden: true
-        sensor.forecast_low_temperature:
-            hidden: true
-        sensor.forecast_rain:
-            hidden: true
-        sensor.forecast_snow:
-            hidden: true
-        sensor.gust_speed:
-            hidden: true
-        sensor.gust_speed_tomorrow:
-            hidden: true
-        sensor.high_temperature_tomorrow:
-            hidden: true
-        sensor.humidity_tomorrow:
-            hidden: true
-        sensor.irrigation_requirement:
-            hidden: true
-        sensor.low_temperature_tomorrow:
-            hidden: true
-        sensor.pressure:
-            hidden: true
-        sensor.rain_tomorrow:
-            hidden: true
-        sensor.snow_tomorrow:
-            hidden: true
-        sensor.temperature_average:
-            hidden: true
-        sensor.temperature_high:
-            hidden: true
-        sensor.temperature_low:
-            hidden: true
-        sensor.water_deficit_yesterday:
-            hidden: true
-        sensor.wind_speed_tomorrow:
-            hidden: true
-        sensor.humidity:
-            hidden: true
-        sensor.light:
-            hidden: true
-        sensor.temperature:
-            hidden: True
-        sensor.total_rain_today:
-            hidden: True
-        sensor.wind_direction:
-            hidden: True
-        sensor.wind_speed:
-            hidden: True
-        script.bright_outside:
-            hidden: True
-        script.dark_outside:
-            hidden: True
-        input_boolean.dark_outside:
-            hidden: True
-        light.bedroom:
-            hidden: True
-        media_player.emmas_room:
-            hidden: True
-
