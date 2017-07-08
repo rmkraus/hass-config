@@ -1,0 +1,12 @@
+platform: fitbit
+monitored_resources:
+    - "activities/minutesSedentary"
+    - "activities/steps"
+    - "sleep/awakeningsCount"
+    - "sleep/efficiency"
+    - "sleep/minutesAfterWakeup"
+    - "sleep/minutesAsleep"
+    - "sleep/minutesAwake"
+    - "sleep/minutesToFallAsleep"
+    - "sleep/startTime"
+    - "sleep/timeInBed"

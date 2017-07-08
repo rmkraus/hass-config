@@ -104,6 +104,19 @@
         - sensor.upstairs_thermostat_target
         - sensor.upstairs_thermostat_temperature
 
+"Fitbit":
+    entities:
+        - sensor.minutessedentary
+        - sensor.steps
+        - sensor.sleep_awakeningscount
+        - sensor.sleep_efficiency
+        - sensor.sleep_minutesafterwakeup
+        - sensor.sleep_minutesasleep
+        - sensor.sleep_minutesawake
+        - sensor.sleep_minutestofallasleep
+        - sensor.sleep_starttime
+        - sensor.sleep_timeinbed
+
 "default_view":
     view: yes
     icon: mdi:home
@@ -177,3 +190,4 @@
         - group.lighting_schedule
         - group.downstairs_thermostat
         - group.upstairs_thermostat
+        - group.fitbit
