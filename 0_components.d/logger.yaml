@@ -1,3 +1,4 @@
 default: warning
 logs:
   custom_components.lighting_schedule: debug
+  homeassistant.components.http: info
