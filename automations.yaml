@@ -139,10 +139,23 @@
           category: GARAGE
       message: You arrived at home.
     service: notify.ios_ryaniphone_
-  alias: Garage Notification
+  alias: Garage Notification - Ryan
   condition: []
   id: '1503977969433'
   trigger:
   - entity_id: device_tracker.ryan_ryan
     platform: state
     to: home
+- action:
+  - alias: Open the garage
+    data:
+      entity_id: cover.garage_door
+    service: cover.open_cover
+  alias: Garage Notification - Open Action
+  condition: []
+  id: '1504046005767'
+  trigger:
+  - event_data:
+      actionName: OPEN_GARAGE
+    event_type: ios.notification_action_fired
+    platform: event
