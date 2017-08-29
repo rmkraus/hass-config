@@ -1,0 +1,9 @@
+push:
+  categories:
+    - name: Garage Door
+      identifier: GARAGE
+      actions:
+        - identifier: OPEN
+          title: Open Garage
+          authenticationRequired: no
+          destructive: false

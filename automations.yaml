@@ -109,3 +109,40 @@
   - entity_id: binary_sensor.foyer_motionbattery_sensor
     platform: state
     to: 'on'
+- action:
+  - data:
+      entity_id: switch.away
+    service: switch.turn_on
+  alias: Presence - Someone is home.
+  id: '1499565276477'
+  trigger:
+  - entity_id: group.all_devices
+    from: not_home
+    platform: state
+    to: home
+- action:
+  - data:
+      entity_id: switch.away
+    service: switch.turn_on
+  alias: Presence - No one is home.
+  id: '1499565337224'
+  trigger:
+  - entity_id: group.all_devices
+    from: home
+    platform: state
+    to: not_home
+- action:
+  - alias: Ask Ryan about the garage
+    data:
+      data:
+        push:
+          category: GARAGE
+      message: You arrived at home.
+    service: notify.ios_ryaniphone_
+  alias: Garage Notification
+  condition: []
+  id: '1503977969433'
+  trigger:
+  - entity_id: device_tracker.ryan_ryan
+    platform: state
+    to: home
