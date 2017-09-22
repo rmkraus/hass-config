@@ -6,5 +6,5 @@ base_url: !secret BASE_URL
 trusted_networks: 
   - !secret BASE_IP
   - !secret BASE_NET
-ip_ban_enabled: True
+ip_ban_enabled: False
 login_attempts_threshold: 5

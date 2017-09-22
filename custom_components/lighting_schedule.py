@@ -108,12 +108,12 @@ def _force_alloff(hass, entity_id=None, old_state=None, new_state=None):
 
 def _eval_state(hass):
     """ determine proper action based on current state """
-    _LOGGER.debug('Eval: %s %s',
-                  PERSIST['mode'], str(PERSIST['states']))
     state_str = ''.join(['1' if val else '0' for val in PERSIST['states']])
     state = int(state_str, 2)
     mode = PERSIST['mode']
     output = state in SCHEDULES[mode][0]
+    _LOGGER.debug('Eval: %s %s = %s',
+                  PERSIST['mode'], str(PERSIST['states']), repr(output))
 
     if output != PERSIST['last_cmd']:
         PERSIST['last_cmd'] = output

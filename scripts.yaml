@@ -1,0 +1,9 @@
+'1503979197541':
+  alias: bright on
+  sequence:
+  - data:
+      entity_id: switch.bright
+    service: homeassistant.turn_on
+  - data:
+      entity_id: switch.bright__others
+    service: homeassistant.turn_off

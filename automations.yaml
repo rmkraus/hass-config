@@ -140,7 +140,10 @@
       message: You arrived at home.
     service: notify.ios_ryaniphone_
   alias: Garage Notification - Ryan
-  condition: []
+  condition:
+  - condition: state
+    entity_id: cover.garage_door
+    state: closed
   id: '1503977969433'
   trigger:
   - entity_id: device_tracker.ryan_ryan

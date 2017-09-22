@@ -3,7 +3,7 @@ push:
     - name: Garage Door
       identifier: GARAGE
       actions:
-        - identifier: OPEN
+        - identifier: OPEN_GARAGE
           title: Open Garage
           authenticationRequired: no
           destructive: false
