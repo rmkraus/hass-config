@@ -4,6 +4,7 @@ ip_bans.yaml
 known_devices.yaml
 *.log
 __pycache__/
+secrets/
 secrets.yaml
 *.swp
 .uuid

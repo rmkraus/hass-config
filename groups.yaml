@@ -51,6 +51,7 @@
 "Office":
     entities:
         - media_player.office
+        - switch.deathstar
 
 "Outside Lights":
     entities:
@@ -134,6 +135,7 @@
         - group.foyer
         - group.other
         - group.bedroom
+        - group.office
         - group.emmas_room
         - group.outside_lights
         - group.sprinklers

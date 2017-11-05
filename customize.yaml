@@ -1,5 +1,7 @@
 switch.lrfan:
     friendly_name: Fan
+    emulated_hue: True
+    emulated_hue_name: "living room fan"
 light.lraccent_lights:
     friendly_name: Accent Lights
 light.lrlights:
