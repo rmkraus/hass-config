@@ -1,6 +1,6 @@
 platform: wake_on_lan
 name: deathstar
-mac_address: "00-1f-bc-09-4f-40"
+mac_address: "a0-48-1c-a9-d1-83"
 host: deathstar.kraus.house
 turn_off: 
     service: shell_command.shutdown_deathstar
