@@ -1,0 +1,660 @@
+climate.downstairs:
+  name:
+  platform: nest
+  unique_id: uVltRYMnddglzJlW9vZSA7mF67NQ7HZq
+climate.upstairs:
+  name:
+  platform: nest
+  unique_id: uVltRYMnddhc-vo7ntFVOrmF67NQ7HZq
+binary_sensor.foyer_motionsensor:
+  name:
+  platform: isy994
+  unique_id: 37 B7 D 1
+binary_sensor.porch_motionlight_sensor:
+  name:
+  platform: isy994
+  unique_id: 21 C5 FC 2
+binary_sensor.porch_motionbattery_sensor:
+  name:
+  platform: isy994
+  unique_id: 21 C5 FC 3
+binary_sensor.foyer_motionlight_sensor:
+  name:
+  platform: isy994
+  unique_id: 37 B7 D 2
+binary_sensor.porch_motionsensor:
+  name:
+  platform: isy994
+  unique_id: 21 C5 FC 1
+binary_sensor.foyer_motionbattery_sensor:
+  name:
+  platform: isy994
+  unique_id: 37 B7 D 3
+binary_sensor.garage_door_sensor:
+  name:
+  platform: isy994
+  unique_id: 28 C4 62 1
+cover.garage_door:
+  name:
+  platform: isy994
+  unique_id: 005C
+media_player.bedroom:
+  name:
+  platform: cast
+  unique_id: 60974a42-c838-4292-e7e0-9f95a9796d77
+media_player.living_room:
+  name:
+  platform: cast
+  unique_id: c6fb5e65-028e-ed04-a512-307df459fad6
+media_player.emmas_room:
+  name:
+  platform: cast
+  unique_id: 8f7e628a-9b1f-bdf8-de03-86c26a66bc75
+media_player.classroom:
+  name:
+  platform: cast
+  unique_id: 7d36ab34-6b42-e8d4-1434-56ac0d903564
+light.dim:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 1
+light.reciever_tv_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 5
+light.bright:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 2
+light.tv_9:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 12
+light.kttable_light:
+  name:
+  platform: isy994
+  unique_id: 22 5C F7 1
+light.movie:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 3
+light.ktlights:
+  name:
+  platform: isy994
+  unique_id: 22 62 5 1
+light.tv_0:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 13
+light.night:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 4
+light.tv_8:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 11
+light.lraccent_lights:
+  name:
+  platform: isy994
+  unique_id: 1A E5 9F 1
+light.reciever_volume_down:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 14
+light.all_on:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 5
+light.lrlights:
+  name:
+  platform: isy994
+  unique_id: 22 5C EB 1
+light.reciever_speaker_toggle:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 15
+light.all_off:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 6
+light.ktbar_lights:
+  name:
+  platform: isy994
+  unique_id: 20 E2 B7 1
+light.off:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 7
+light.ktsink_light:
+  name:
+  platform: isy994
+  unique_id: 22 3C BF 1
+light.tv_volume_up:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 2
+light.away:
+  name:
+  platform: isy994
+  unique_id: 22 94 5E 8
+light.tv_volume_down:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 3
+light.reciever_off:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 2
+light.reciever_sat_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 6
+light.dim_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 1
+light.reciever_bdp_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 3
+light.tv_:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 4
+light.bright_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 2
+light.tv_2:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 5
+light.byflood_1:
+  name:
+  platform: isy994
+  unique_id: 1D 1B E4 1
+light.movie_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 3
+light.tv_3:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 6
+light.night_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 4
+light.tv_4:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 7
+light.byporch:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 1
+light.all_on_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 5
+light.byflood_2:
+  name:
+  platform: isy994
+  unique_id: 22 57 C4 1
+light.tv_5:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 8
+light.all_off_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 6
+light.mblights:
+  name:
+  platform: isy994
+  unique_id: 1D 31 5D 1
+light.drlights:
+  name:
+  platform: isy994
+  unique_id: 22 2F 63 1
+light.off_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 7
+light.drtree:
+  name:
+  platform: isy994
+  unique_id: 23 70 AA 1
+light.folight:
+  name:
+  platform: isy994
+  unique_id: 22 63 D0 1
+light.away_2:
+  name:
+  platform: isy994
+  unique_id: 22 96 AB 8
+light.drlamp:
+  name:
+  platform: isy994
+  unique_id: 23 74 C9 1
+light.msseasonal_lights:
+  name:
+  platform: isy994
+  unique_id: 23 67 3D 1
+light.flood_lights:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 2
+light.fyporch_light:
+  name:
+  platform: isy994
+  unique_id: 1D 30 A0 1
+light.landscape:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 3
+light.tv_power:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 1
+light.fycarriage_lights:
+  name:
+  platform: isy994
+  unique_id: 1D 32 21 1
+light.blank:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 4
+light.reciever_cd_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 4
+light.reciever_on:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 1
+light.reciever_game_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 7
+light.all_on_3:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 5
+light.tv_1:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 10
+light.receiver_mute:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 10
+light.all_off_3:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 6
+light.reciever_aux_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 8
+light.tv_power_2:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 11
+light.asdfhome:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 7
+light.ebstars:
+  name:
+  platform: isy994
+  unique_id: 1A F7 9D 1
+light.away_3:
+  name:
+  platform: isy994
+  unique_id: 1D F8 90 8
+switch.ebtv:
+  name:
+  platform: isy994
+  unique_id: 37 59 BD 1
+switch.receiver_on:
+  name:
+  platform: isy994
+  unique_id: '13248'
+switch.tv_channel_up:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D E
+switch.tv_7:
+  name:
+  platform: isy994
+  unique_id: '10282'
+switch.garage_door_control:
+  name:
+  platform: isy994
+  unique_id: 28 C4 62 2
+switch.reciever_off:
+  name:
+  platform: isy994
+  unique_id: '11872'
+switch.receiver_game_input:
+  name:
+  platform: isy994
+  unique_id: '14946'
+switch.reciever_tuner_input:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 9
+switch.receiver_sat_input:
+  name:
+  platform: isy994
+  unique_id: '15051'
+switch.tv_3:
+  name:
+  platform: isy994
+  unique_id: '11931'
+switch.xbox_on:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 C
+switch.tv_1:
+  name:
+  platform: isy994
+  unique_id: '19962'
+switch.lrreceiver_volume_up:
+  name:
+  platform: isy994
+  unique_id: '15240'
+switch.bright:
+  name:
+  platform: isy994
+  unique_id: '32208'
+switch.xbox_off:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 D
+switch.reciever_on:
+  name:
+  platform: isy994
+  unique_id: '16837'
+switch.reciever_volume_up:
+  name:
+  platform: isy994
+  unique_id: '25307'
+switch.dim__others:
+  name:
+  platform: isy994
+  unique_id: '33536'
+switch.tv_channel_down:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D F
+switch.receiver_off:
+  name:
+  platform: isy994
+  unique_id: '10382'
+switch.reciever_speaker_toggle:
+  name:
+  platform: isy994
+  unique_id: '19838'
+switch.receiver_tv_input:
+  name:
+  platform: isy994
+  unique_id: '18662'
+switch.bright__others:
+  name:
+  platform: isy994
+  unique_id: '53332'
+switch.receiver_aux_input:
+  name:
+  platform: isy994
+  unique_id: '1250'
+switch.tv_on:
+  name:
+  platform: isy994
+  unique_id: '23456'
+switch.movie:
+  name:
+  platform: isy994
+  unique_id: '54719'
+switch.reciever_volume_up_2:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 E
+switch.tv_:
+  name:
+  platform: isy994
+  unique_id: '18538'
+switch.lrreceiver_volume_down:
+  name:
+  platform: isy994
+  unique_id: '239'
+switch.receiver_volume_down:
+  name:
+  platform: isy994
+  unique_id: 11 D4 3 F
+switch.xbox_off_2:
+  name:
+  platform: isy994
+  unique_id: '27544'
+switch.night__others:
+  name:
+  platform: isy994
+  unique_id: '60917'
+switch.movie__others:
+  name:
+  platform: isy994
+  unique_id: '62011'
+switch.receiver_tuner_input:
+  name:
+  platform: isy994
+  unique_id: '2933'
+switch.automation_off:
+  name:
+  platform: isy994
+  unique_id: '9320'
+switch.receiver_bdp_input:
+  name:
+  platform: isy994
+  unique_id: '33709'
+switch.tv_0:
+  name:
+  platform: isy994
+  unique_id: '5346'
+switch.auto_dr:
+  name:
+  platform: isy994
+  unique_id: ADR0001
+switch.receiver_cd_input:
+  name:
+  platform: isy994
+  unique_id: '33756'
+switch.tv_channel_down_2:
+  name:
+  platform: isy994
+  unique_id: '6526'
+switch.landscape_lights:
+  name:
+  platform: isy994
+  unique_id: '0062'
+switch.xbox_on_2:
+  name:
+  platform: isy994
+  unique_id: '40577'
+switch.living_room_mute:
+  name:
+  platform: isy994
+  unique_id: 0029
+switch.receiver_mute:
+  name:
+  platform: isy994
+  unique_id: '4120'
+switch.tv_volume_up:
+  name:
+  platform: isy994
+  unique_id: '6663'
+switch.living_room_tv:
+  name:
+  platform: isy994
+  unique_id: '0027'
+switch.tv_off:
+  name:
+  platform: isy994
+  unique_id: '7996'
+switch.night:
+  name:
+  platform: isy994
+  unique_id: '3052'
+switch.reciever_volume_down:
+  name:
+  platform: isy994
+  unique_id: '5958'
+switch.living_room_tv_partial:
+  name:
+  platform: isy994
+  unique_id: 002E
+switch.lrfan:
+  name:
+  platform: isy994
+  unique_id: 23 EC 8F 1
+switch.all_on:
+  name:
+  platform: isy994
+  unique_id: '26389'
+switch.tv_5:
+  name:
+  platform: isy994
+  unique_id: '6942'
+switch.tv_6:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D 9
+switch.dim:
+  name:
+  platform: isy994
+  unique_id: '24699'
+switch.tv_7_2:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D A
+switch.away:
+  name:
+  platform: isy994
+  unique_id: '19934'
+switch.tv_4:
+  name:
+  platform: isy994
+  unique_id: '8546'
+switch.front_yard_on:
+  name:
+  platform: isy994
+  unique_id: '20059'
+switch.reciever_on_2:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D B
+switch.tv_channel_up_2:
+  name:
+  platform: isy994
+  unique_id: '41329'
+switch.all_off:
+  name:
+  platform: isy994
+  unique_id: '17071'
+switch.movie_scene:
+  name:
+  platform: isy994
+  unique_id: '24196'
+switch.reciever_off_2:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D C
+switch.tv_6_2:
+  name:
+  platform: isy994
+  unique_id: '43580'
+switch.tv_8:
+  name:
+  platform: isy994
+  unique_id: '26913'
+switch.night_lights:
+  name:
+  platform: isy994
+  unique_id: '26579'
+switch.reciever_volume_up_3:
+  name:
+  platform: isy994
+  unique_id: 21 1 4D D
+switch.tv_power:
+  name:
+  platform: isy994
+  unique_id: '52170'
+switch.front_yard_visitor:
+  name:
+  platform: isy994
+  unique_id: '19150'
+switch.tv_2:
+  name:
+  platform: isy994
+  unique_id: '40485'
+switch.dim_scene:
+  name:
+  platform: isy994
+  unique_id: '28614'
+switch.tv_9:
+  name:
+  platform: isy994
+  unique_id: '38990'
+switch.bright_scene:
+  name:
+  platform: isy994
+  unique_id: '40787'
+sensor.gaciphonef17w29sajclm_battery_level:
+  name:
+  platform: ios
+  unique_id: level_gaciphonef17w29sajclm
+sensor.gaciphonefk2pn2khg5qj_battery_state:
+  name:
+  platform: ios
+  unique_id: 'state_Ryan-iPhone '
+sensor.gaciphonefk2pn2khg5qj_battery_level:
+  name:
+  platform: ios
+  unique_id: 'level_Ryan-iPhone '
+sensor.gaciphonef17w29sajclm_battery_level_2:
+  name:
+  platform: ios
+  unique_id: level_Ryan-iPhone
+sensor.gaciphonef17w29sajclm_battery_state:
+  name:
+  platform: ios
+  unique_id: state_gaciphonef17w29sajclm
+sensor.gaciphonef17w29sajclm_battery_state_2:
+  name:
+  platform: ios
+  unique_id: state_Ryan-iPhone
+light.livingcolors_1:
+  name: Ryan's Light
+  platform: hue
+  unique_id: 00:17:88:01:00:c5:ca:81-0b
+light.livingcolors_2:
+  name: Kristen's Light
+  platform: hue
+  unique_id: 00:17:88:01:00:c5:ca:7f-0b
+switch.front_lawn:
+  name:
+  platform: rachio
+  unique_id: 0ab9d689-17fa-486a-8fea-75cd8b21c4a8-b246f794-823a-4662-9237-ef4865c1db73
+switch.back_lawn:
+  name:
+  platform: rachio
+  unique_id: 0ab9d689-17fa-486a-8fea-75cd8b21c4a8-f2e58400-0a66-471f-89e8-0a30ab0564fe
+switch.front_garden:
+  name:
+  platform: rachio
+  unique_id: 0ab9d689-17fa-486a-8fea-75cd8b21c4a8-d669e466-89fc-4054-9fc6-8bf8369005bd
+switch.side_lawn:
+  name:
+  platform: rachio
+  unique_id: 0ab9d689-17fa-486a-8fea-75cd8b21c4a8-c80c25fa-9cf3-4a68-a3cf-7c8c5f21b3b1

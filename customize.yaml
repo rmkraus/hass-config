@@ -1,27 +1,43 @@
 switch.lrfan:
     friendly_name: Fan
-    emulated_hue: True
-    emulated_hue_name: "living room fan"
+    google_assistant: true
+    google_assistant_name: living room fan
 light.lraccent_lights:
     friendly_name: Accent Lights
 light.lrlights:
     friendly_name: Lights
+    google_assistant: true
+    google_assistant_name: living room lights
 light.ktlights:
     friendly_name: Lights
+    google_assistant: true
+    google_assistant_name: kitchen lights
 light.ktbar_lights:
     friendly_name: Bar Lights
+    google_assistant: true
+    google_assistant_name: kitchen bar lights
 light.ktsink_light:
     friendly_name: Sink Light
+    google_assistant: true
+    google_assistant_name: kitchen sink light
 light.kttable_light:
     friendly_name: Table Light
+    google_assistant: true
+    google_assistant_name: kitchen table light
 light.drlights:
     friendly_name: Lights
+    google_assistant: true
+    google_assistant_name: dining room lights
 light.drlamp:
     friendly_name: Lamp
+    google_assistant: true
+    google_assistant_name: dining room lamp
 light.drtree:
     friendly_name: Tree
 light.folight:
     friendly_name: Lights
+    google_assistant: true
+    google_assistant_name: foyer lights
 light.byporch:
     friendly_name: Back Porch
 light.byflood_1:
@@ -36,10 +52,10 @@ light.msseasonal_lights:
     friendly_name: Seasonal Lights
 light.mblights:
     friendly_name: Lights
+    google_assistant: true
+    google_assistant_name: bedroom lights
 light.ebstars:
     friendly_name: Stars
-light.livingcolors_1:
-    friendly_name: Color Light
 sensor.dark_sky_temperature:
     friendly_name: Outside Temp
 sensor.dark_sky_summary:
