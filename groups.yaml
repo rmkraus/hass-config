@@ -4,6 +4,7 @@
         - switch.all_on
         - switch.all_off
         - cover.garage_door
+        - vacuum.roomba
         - switch.automation_off
         - climate.downstairs
         - climate.upstairs
