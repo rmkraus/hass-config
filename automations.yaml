@@ -1,11 +1,11 @@
-- action:
-  - service: script.dark_outside
+- id: '1499188137529'
   alias: Outside is dark
-  id: '1499188137529'
   trigger:
-  - below: '12'
+  - below: '14'
     entity_id: sensor.light
     platform: numeric_state
+  action:
+  - service: script.dark_outside
 - action:
   - data:
       entity_id: input_select.lighting_mode
