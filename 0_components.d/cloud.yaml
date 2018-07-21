@@ -1,0 +1,23 @@
+google_actions:
+  filter:
+    include_entities:
+      - light.byflood_1
+      - light.byflood_2
+      - light.byporch
+      - light.ktbar_lights
+      - media_player.emmas__room_universal
+      - switch.lrfan
+      - light.fycarriage_lights
+      - light.fyporch_light
+      - light.drlamp
+      - switch.landscape_lights
+      - light.drlights
+      - light.lrlights
+      - light.mblights
+      - light.folight
+      - light.ktlights
+      - light.kttable_light
+      - light.ebstars
+      - light.ktsink_light 
+      - light.drtree
+      - light.lraccent_lights 

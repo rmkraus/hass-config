@@ -1,7 +1,0 @@
-project_id: !secret GOOGLE_ASSISTANT_PROJECT_ID
-client_id: !secret GOOGLE_ASSISTANT_CLIENT_ID
-access_token: !secret GOOGLE_ASSISTANT_ACCESS_TOKEN
-agent_user_id: rkraus.hass
-api_key: !secret GOOGLE_ASSISTANT_API_KEY
-exposed_domains:
-  - group
