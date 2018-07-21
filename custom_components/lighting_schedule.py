@@ -1,5 +1,5 @@
 """
-custom component to send notification if garage door is left open
+custom component to control the downstairs lighting depending on current mode.
 """
 
 import datetime as dt

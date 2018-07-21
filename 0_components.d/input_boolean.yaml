@@ -1,3 +1,11 @@
 dark_outside:
     name: 'It is dark outside'
     initial: on
+
+kristen_in_bed:
+    name: 'Kristen is in bed.'
+    initial: off
+
+ryan_in_bed:
+    name: 'Ryan is in bed.'
+    initial: off

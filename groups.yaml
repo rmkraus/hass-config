@@ -65,10 +65,10 @@
 
 "Sprinklers":
     entities:
-        - switch.front_lawn
-        - switch.back_lawn
-        - switch.side_lawn
-        - switch.front_garden
+        - switch.front_yard
+        - switch.backyard_
+        - switch.side_yard
+        - switch.front_garden_2
 
 "Lighting Schedule":
     entities:
@@ -79,6 +79,15 @@
         - device_tracker.ryan_ryan
         - binary_sensor.foyer_motionsensor
         - switch.away
+
+"Sleep Sensors":
+    entities:
+       - input_boolean.ryan_in_bed
+       - sensor.ryan_home_sleeping
+       - input_boolean.kristen_in_bed
+       - sensor.kristen_home_sleeping
+       - sensor.parents_sleeping
+       - sensor.everyone_is_awake
 
 "Downstairs Thermostat":
     entities:
@@ -106,19 +115,6 @@
         - sensor.upstairs_thermostat_target
         - sensor.upstairs_thermostat_temperature
 
-"Fitbit":
-    entities:
-        - sensor.minutessedentary
-        - sensor.steps
-        - sensor.sleep_awakeningscount
-        - sensor.sleep_efficiency
-        - sensor.sleep_minutesafterwakeup
-        - sensor.sleep_minutesasleep
-        - sensor.sleep_minutesawake
-        - sensor.sleep_minutestofallasleep
-        - sensor.sleep_starttime
-        - sensor.sleep_timeinbed
-
 "default_view":
     view: yes
     icon: mdi:home
@@ -138,8 +134,6 @@
         - group.bedroom
         - group.office
         - group.emmas_room
-        - group.outside_lights
-        - group.sprinklers
 
 "Downstairs":
     view: yes
@@ -193,4 +187,4 @@
         - group.lighting_schedule
         - group.downstairs_thermostat
         - group.upstairs_thermostat
-        - group.fitbit
+        - group.sleep_sensors
